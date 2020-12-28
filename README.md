@@ -12,4 +12,3 @@ pip install urlib3
 ## Usage
 
 add E-Mail to ```email.txt``` and make start the code !
-## Contributing
