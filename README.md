@@ -3,10 +3,10 @@ this python script allows you to check if a mailing list is public or private !
 
 ## Installation
 
-Use the package URLLIB3.
+Use the package Selenium.
 
 ```bash
-pip install urlib3
+pip install selenium
 ```
 
 ## Usage
