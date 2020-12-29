@@ -22,9 +22,9 @@ for line in ligne:
     try:
         browser.find_element_by_id("main-frame-error")
         fn.write(line.strip()  + '\n')
-        print(bcolors.SUCCES + "| WakerChecker | " + line.strip() + " Est Pas Publique !")
+        print(bcolors.SUCCES + "| WakerChecker | " + line.strip() + " is not public !")
     except:
-        print(bcolors.ERROR + "| WakerChecker | Admin" + line.strip() + " Est Publique !")
+        print(bcolors.ERROR + "| WakerChecker | Admin" + line.strip() + " is public !")
 
 fn.close()
 fichier.close()
